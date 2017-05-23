@@ -1,0 +1,69 @@
+
+#mainTitle {
+	margin-top: 10rem;
+	/*margin-bottom: -2rem;*/
+	font-family: 'Roboto Slab', serif;
+	font-size: 48px;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: -.1rem;
+}
+
+#sub {
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 9pt;
+	line-height: 1.5;
+}
+
+#author {
+	color: #1285cf;
+	text-align: center;
+	margin-top: -1rem;
+	font-size: 9pt;
+	line-height: 1.5;
+}
+
+/* Unused formatting
+#sectionTitle {
+	font-size: 36px;
+	font-weight: 300;
+	text-align: center;
+}
+*/
+
+#subsectionTitle {
+	margin-top: 5rem;
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+}
+
+#subsectionContent {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 18px;
+}
+
+#linedMenu {
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	height: 4.5rem;
+}
+
+#linedMenu-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#linedMenu-item {
+	font-size: 17px;
+	float: left;
+	text-align: center;
+	line-height: 2rem;
+	padding: 14px 16px;
+}
