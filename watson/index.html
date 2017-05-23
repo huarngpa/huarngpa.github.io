@@ -16,8 +16,28 @@
 				<h1 id="sub">
 					A guided to getting started with the Watson Natural Language API. <br> Written for machine learning enthusiasts.
 				</h1>
-				<h1 id="author">By Patrick Huarng</h1>
-				<div id="subTitle"></div>
+				<h1 id="author"><a href="https://huarngpa.github.io/" target="_blank">By Patrick Huarng</a></h1>
+				<div id="subTitle">
+					<div id="container">
+						<div class="row">
+							<div class="col-sm-4">
+								<img id="icon-top" src="../img/watson/003-discussion.png"><br>
+								<a href="#overview" id="iconLink">Machine Learning</a><br>
+								<p>Context and background on machine learning technologies. What is it and what are its objectives?</p>
+							</div>
+							<div class="col-sm-4">
+								<img id="icon-top" src="../img/watson/005-light-bulb.png"><br>
+								<a href="#gettingStarted" id="iconLink">Getting Started</a><br>
+								<p>Tutorial on how to subscribe, navigate, and use the service. Get an access key and start using the service!</p>
+							</div>
+							<div class="col-sm-4">
+								<img id="icon-top" src="../img/watson/006-scientist.png"><br>
+								<a href="#gettingStarted" id="iconLink">Experiment and Code</a><br>
+								<p>Check out an example application and test a body of text with your access key. Embed the service if your own app!</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 			<section id="overview">
 				<div id="linedMenu">
@@ -35,8 +55,9 @@
 					<dd id="subsectionContent"><strong><em>Database mining</em></strong> from large datasets that have grown from the web and various automation technologies: i.e. web click data, medical records, biology, engineering, etc.</dd>
 					<dd id="subsectionContent"><strong><em>Applications that can't be programed by hand</em></strong>, increasingly we are seeing the need for applications that can handle ambiguity: i.e. chatbots, virtual agents, handwriting recognition, most natural language processing (NLP), computer vision, etc.</dd>
 					<dd id="subsectionContent"><strong><em>Self-customizing programs</em></strong>, also known as recommendation engines, utilize techniques in unsupervised learning and are found in services like: Amazon, Netflix product recommendations, etc.</dd>
-					<dt id="subsectionTitle">Objectives</dt>
-					<dd id="subsectionContent">While there are a lot of resources out there to help you learn more about machine learning, this web page is </dd>
+					<dt id="subsectionTitle">Guide Objectives</dt>
+					<dd id="subsectionContent">While there are a lot of resources out there to help you learn more about machine learning, this web page is focused on giving you practical code examples and explanations on how to work with one of the most well-known machine learning services, the Watson Natural Language API.</dd>
+					<dd id="subsectionContent">Before being acquired by IBM, the Watson Natural Language API was known as AlchemyAPI and one of the leading machine learning services in the market from 2011 to 2016--rivaling any Google or Facebook solution. These days, while the competition has caught up, learning how to use this API will give any aspiring machine learning enthusiast a solid foundation in the potential benefits and applications of machine learning technologies.</dd>
 				</dl>
 			</section>
 			<section id="gettingStarted">
@@ -48,8 +69,11 @@
 					</ul>
 				</div>
 				<dl>
-					<dt id="subsectionTitle">Getting Started</a></dt>
-					<dd id="subsectionContent">Detailed instructions.</dd>
+					<dt id="subsectionTitle">Getting Started</dt>
+					<dd id="subsectionContent">The Watson Natural Language API comprises of many different services. At the time of this writing, there are fourteen (14) different services that IBM provides. Ranging from translation, sentiment analyses, context understanding, all the way to machine vision. </dd>
+					<dd id="subsectionContent">For the purposes of this guide we will focus on using the Natural Language Understanding API</dd> <br>
+					<dd id="subsectionContent">1. You need a Bluemix account. If you don't have one, <a href="https://console.ng.bluemix.net/registration/" target="_blank">sign up</a>.</dd> <br>
+					<dd id="subsectionContent">2. .</dd> <br>
 				</dl>
 			</section>
 			<section id ="interactingExample">
@@ -61,7 +85,36 @@
 					</ul>
 				</div>
 				<dl>
-					<dt id="subsectionTitle">Interacting with the API (An Example)</a></dt>
+					<dt id="subsectionTitle">Interacting with the API (An Example)</dt>
+					<dd id="subsectionContent">Once you've registered with Watson APIs, go ahead and enter your access key and a body of text (i.e. copy it from some website) in the form below and we'll show you how this service works.</dd>
+					<div id="container">
+						<form>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="form-group">
+										<label for="accessKey">Access Key</label>
+										<input type="text" class="form-control" id= "accessKey" aria-describedby="keyHelp" placeholder="Enter API Access Key">
+										<small id="keyHelp" class="form-text text-muted">We'll never share your access key with anyone else.</small>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="form-group">
+										<label for="inputText">Input Text</label>
+										<textarea class="form-control" id="inputText" row="15" aria-describedby="textHelp"></textarea>
+										<small id="textHelp" class="form-text text-muted">Enter a body of text to be analyzed.</small>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-4">
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<dt id="subsectionTitle">Output from the API</dt>
 					<dd id="subsectionContent">Detailed instructions.</dd>
 				</dl>
 			</section>
@@ -79,6 +132,11 @@
 				</dl>
 			</section>
 			<section id="end">
+				<dl>
+					<dt id="subsectionTitle">Congratulations</dt>
+					<dd id="subsectionContent">We've reached the end of our journey together. Hopefully this activity was as fun for you as it was for me putting this site together for you. Machine learning is a really interesting field of study and there is still lots to do in the field.</dd>
+					<dd id="subsectionContent">Here are some links for further studies in this subject:</dd>
+				</dl>
 			</section>
 		</article>
 		</div>

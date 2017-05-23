@@ -24,6 +24,29 @@
 	line-height: 1.5;
 }
 
+#subTitle {
+	margin-top: 8rem;
+	margin-bottom: 5rem;
+	font-size: 14px;
+	text-align: center;
+}
+
+#iconLink {
+	font-size: 130%;
+}
+
+#icon-top {
+	margin-bottom: 2rem;
+}
+
+#icon-top {
+	margin-bottom: 2rem;
+}
+
+#icon-top {
+	margin-bottom: 2rem;
+}
+
 /* Unused formatting
 #sectionTitle {
 	font-size: 36px;
@@ -66,4 +89,8 @@
 	text-align: center;
 	line-height: 2rem;
 	padding: 14px 16px;
+}
+
+#end {
+	margin-bottom: 30rem;
 }
